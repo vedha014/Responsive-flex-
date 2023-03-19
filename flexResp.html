@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/8d92229b07.js" crossorigin="anonymous"></script>
+        <style> 
+        * {
+            box-sizing: border-box;
+        }
+
+        img {
+            width: 100%;
+ 
+        }
+
+        body {
+            margin: 0;
+        }
+        header {
+            background-color: white;
+          }
+            section{
+                background-image: url(/img/wood-1759566__340.webp);
+            }
+            .main{
+                
+                justify-content: center;
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+        span {
+                color: rgb(232 83 86);
+            }
+        .row1 {
+            display:flex;
+            flex-wrap: wrap;
+            width: 80%;
+            
+        }
+        .row1>div{
+            width:50%
+        }
+        .td h2 {
+            margin: 0;
+            font-weight: 100;
+            font-size: 50px;
+            }
+
+            .td p {
+                margin: 0;
+                color: rgb(97 97 97);
+                font-size: large;
+            }
+
+            .td1 {
+                display:flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            .td1 a {
+                text-decoration: none;
+                font-size: 20px;
+                font-weight: 100;
+                color: rgb(97 97 97);
+            }
+            .td1 a:hover {
+                background-color: #f32326;
+                border-radius: 50%;
+                color: white;
+                padding: 10px;
+            }
+            .row2 {
+                width: 80%;
+           }
+           .row2>div:first-child {
+              padding: 30px 0px 0px 0px
+           }
+            .rowtwo{
+                display:flex;
+                flex-wrap: wrap;
+                padding: 20px 0px;
+            }
+            .rowtwo>div:first-child{
+                width:22%
+            }
+            .ib{
+                display: flex;
+                flex-wrap: wrap;
+                width:78%
+            }
+            .ib>div:first-child{
+                width:5%
+            }
+            .ib>div:nth-child(2){
+                width:95%;
+             
+            }
+
+            .rowtwo h2{
+                color: white;
+                font-weight: 100;
+                margin-right: 10px;
+                font-size: 50px;
+            }
+            .rowtwo pre{
+                
+                border-left: solid rgb(150, 146, 146);
+            }
+            .rowtwo p{
+            
+                color: rgb(164, 157, 157);
+                font-size: smaller;
+            }
+            .rowtwo a {
+                text-decoration: none;
+                color: rgb(232 83 86);
+            }
+            .section {
+                background-color: black;
+                color: white;
+            }
+            .row3 
+            {
+                display:flex;
+                flex-wrap: wrap;
+                width: 80%;
+                justify-content: space-between;
+                padding: 20px 0px;
+            }
+            .row3>div{
+                width:23%
+            }
+            .col{
+                /* flex-direction: column; */
+
+            }
+            .col img {
+                width: 100%;
+                height: 150px;
+            }
+            .col h3 {
+                font-size: 30px;
+                font-weight: 400;
+                vertical-align: top;
+
+            }
+
+            .col h5 {
+                margin: 0%;
+                font-size: medium;
+                padding-top: 30px;
+            }
+
+            .col p {
+                color: rgb(95, 95, 95);
+                margin: 0%;
+                font-size: small;
+                padding-bottom: 30px;
+            }
+
+            .col button {
+                background-color: rgb(189, 25, 27);
+                padding: 5px 10px;
+                color: white;
+                font-weight: 400;
+                border: 0;
+                border-radius: 2px;
+            }
+
+            .col button:hover {
+                background-color: #0fcc8d;
+                border-radius: 80%;
+                color: white;
+            }
+           
+            .row5{
+                display:flex;
+                flex-wrap: wrap;
+                width: 80%;
+            }
+            .row5>div{
+                width:50% 
+            }    
+            .colone1{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+            }      
+            .colone1>div{
+                width:48%
+            }
+            .colone1>div h4{
+                margin-top: 0%;
+            }
+            .col1>div h2{
+                color:white;
+            }
+            .col2>div h2{
+                color:white;
+            }
+            .col1{
+                padding-bottom: 20px;
+            }
+            .row6{
+                display:flex;
+                flex-wrap: wrap;
+                width: 80%;
+            }
+            .row6>div{
+                width:50%;
+            }
+            
+            .colone2{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+            .r1{
+                display:flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                 margin-bottom: 20px; 
+                
+            }
+    
+            .r1>div{
+                width:22%;
+                
+            }
+            .colone1 h4 {
+                color: white;
+                font-weight: 400;
+                font-size: medium;
+
+
+            }
+
+            .colone1 p {
+                color: rgb(95, 95, 95);
+                font-size: smaller;
+            }
+
+            hr {
+
+                margin: 0;
+                border: solid rgb(45 45 45) 1px;
+            }
+            .ul{
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            ul {
+                
+                width: 50%;
+                list-style: none;
+                margin: 0;
+                line-height: 2;
+                padding: 0%;
+            }
+
+            li {
+                color: #ab171a
+            }
+            li::before {
+                content: "\203A"; 
+            }
+            .row6>div:nth-child(2)
+        {
+            text-align: right;
+        }
+        @media( max-width:576px){
+            .row1>div{
+            width:100%
+        }
+        .row1>div:first-child{
+            text-align: center;
+        }
+        .rowtwo>div:first-child{
+            text-align: center;
+            width:100%;
+        }
+        
+        .ib{
+            width: 100%;
+        }
+        .ib>div{
+                width:100%;
+                text-align: center;
+            }
+        .row3>div{
+            width: 50%;
+        }
+        .row5>div{
+            width: 100%;
+        }
+        .row6>div{
+            width: 100%;
+            text-align: center;
+        }
+        .row6>div:nth-child(2)
+        {
+            text-align: center;
+        }
+        .colone1>div{
+                width:100%;
+                text-align: center;
+                padding-bottom: 20px;
+            }
+            .r1>div{
+                width:48%;
+                margin-bottom: 20px;
+            }
+    }
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="main">
+                <div class="row1">
+                    <div class="td">
+                        <h2><span>K</span>ata<span>K</span>limt</h2>
+                        <p>Photography</p>
+                    </div>
+                    <div class="td1">
+                        <a href="#">About</a>
+                        <a href="#">Services</a>
+                        <a href="#">folio</a>
+                        <a href="#">Biog</a>
+                        <a href="#" style="margin-right: 0;">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section>
+            <div class="main">
+                <div class="row2">
+                    <div>
+                        <img src="img/fullimage.png" >
+                    </div>
+                    <div class="rowtwo">
+                        <div><h2><span>W</span>elcome!</h2>
+                        </div>  
+                        <div class="ib">
+                            <div>
+                                <pre>
+
+
+                                </pre>
+                            </div>                 
+                            <div>
+                                <p>
+                                    <a href="#">Click here</a> for more info about this free wibsite template created by
+                                    TemplateMonster.com.
+                                    This is a Bootstrap template that goes with serveral layout options
+                                    (for desktop,tablet, smartphone landscape and portrait) to fit popular screen resolutions.
+                                    The PSO source files of this template are availabe for free for the members of
+                                    TemplateMonster.com.
+                                    Feel free to get thm! 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="section">
+            <div class="main">
+                <div class="row3">
+                    <div class="col">
+                        <h3>Fashion</h3>
+                        <img src="/img/img_2.png">
+                        <h5>At vero eos et accusamus et iusto</h5>
+                        <p>Odio digissmoss ducimus qui blanditis praesentum voluptaitum</p>
+                        <button>Read More</button>
+                    </div>
+                    <div class="col">
+                        <h3>Nature</h3>
+                        <img src="/img/img_3.png" alt="">
+                        <h5>Deleniti atque corrupti quos</h5>
+                        <p>Dolores et ques molestias excepturi sint occaecaati cupiditate non</p>
+                        <button>Read More</button>
+                    </div>
+                    <div class="col">
+                        <h3>Love story</h3>
+                        <img src="/img/fashion.jpg" alt="">
+                        <h5>Similique sunt on culpa qui officia</h5>
+                        <p>Deserunt mollitia anini,id est laburum et dolorum fuga</p>
+                        <button>Read More</button>
+                    </div>
+                    <div class="col">
+                        <h3>Fine art</h3>
+                        <img src="/img/kataklimt.png" alt="">
+                        <h5>Similique sunt on culpa qui officia</h5>
+                        <p>Deserunt mollitia anini,id est laburum et dolorum fuga</p>
+                        <button>Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section>
+            <div class="main">
+                <div class="row5">
+                    
+                    <div class="col1">
+                        
+                        <div><h2 style="margin: 0%;padding: 15px 0px;">Shortly about me</h2>
+                        </div>                        
+                       
+                        <div class="colone1"> 
+                            <div><img  src="/img/image_5.png" alt=""></div>
+                            <div style="padding: 0px 20px 0px 0px;">
+                                <h4>Sed ut perspictis unde omins natus error volupatem acuusantuim doloue laundantuim,totam rem.
+                                </h4>
+                                <p> Aperiam, eaque ipsa quae ab illo vertatias et beatae vitaww dicta sunt explicabo nemo enim
+                                    ipsam voluptatem qula
+                                    voluptas sit aspernatur aut odit aut fugit sed</p>
+                                <hr>
+                                <div class="ul">
+                                    <ul>
+                                        <li>Compaigns</li>
+                                        <li>Portraits</li>
+                                        <li>Fashion</li>
+                                        <li>Fine Art</li>
+                                    </ul>
+                                    <ul>
+                                        <li>Advertising</li>
+                                        <li>Lifestyles</li>
+                                        <li>Love story</li>
+                                        <li>Landscape</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col2">
+                        <div><h2 style="margin: 0%;padding: 15px 0px;">Latest Photoshoots</h2>
+                        </div>                        
+                        <div class="colone2"> 
+                            <div class="r1">
+                                <div> <img src="/img/kataklimt-last-r1-c1.jpg"> </div>
+                                <div> <img src="/img/kataklimt-last-r1-c2.jpg"> </div>
+                                <div> <img src="/img/kataklimt-r1-c3.jpg">      </div>
+                                <div> <img src="/img/kataklimt-r1-c4.jpg">      </div>
+                            </div>
+                            <div class="r1">
+                                <div> <img src="/img/kataklimt-r2-c1.jpg"> </div>
+                                <div> <img src="/img/kataklimt-r2-c2.jpg"> </div>
+                                <div> <img src="/img/kataklimt-r2-c4.jpg"> </div>
+                                <div> <img src="/img/kataklimt-r2-c3.jpg"> </div>
+                            </div>
+                            <div class="r1">
+                                <div> <img src="/img/kataklimt-r3-c2.jpg"> </div>
+                                <div> <img src="/img/kataklimt-r3-c3.jpg"> </div>
+                                <div> <img src="/img/kataklimt-r3-c4.jpg"> </div>
+                                <div> <img src="/img/kataklimt-r3-c1.jpg"> </div>
+                            </div>
+                        </div>
+                    
+                        
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <footer>
+            <div class="main">
+                <div class="row6">
+                    <div style="padding: 20px 0px">&#169;Copyright.</div>
+                    <div style="padding:20px 0px">
+                        <i class="fa-brands fa-facebook fa-2x"></i>&nbsp;
+                        <i class="fa-brands fa-google-plus fa-2x"></i>&nbsp;
+                        <i class="fa-brands fa-square-twitter fa-2x"></i>&nbsp;
+                        <i class="fa-brands fa-github fa-2x"></i>&nbsp;
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+    </body>
+</html> 
+    
+            
+
